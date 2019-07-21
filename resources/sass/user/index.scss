@@ -1,0 +1,402 @@
+@import '../variables';
+
+.home-page {
+  .top-section {
+    padding: 90px 0;
+    background-color: $body-bg;
+    display: flex;
+    flex-direction: column;
+
+    .text-wrapper {
+      color: $font-color-text;
+
+      h1 {
+        color: $font-color-heading;
+        font-size: 1.8rem;
+        font-weight: 300;
+      }
+
+      h3 {
+        color: $primary-color;
+        font-size: 1.2rem;
+        font-weight: 300;
+      }
+
+      p {
+        margin: 40px 0;
+        font-weight: 300;
+        font-size: 0.9rem;
+        text-align: justify;
+      }
+    }
+
+    .buttons-wrapper {
+      display: flex;
+
+      a {
+        flex: 1 0 0;
+
+        &:nth-of-type(1) {
+          margin-right: 20px;
+        }
+
+        &:nth-of-type(2) {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  .slider-container {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    right: -52px;
+    top: calc(50% - 150px);
+
+    .item {
+      width: 100%;
+      margin-left: auto;
+      height: 100%;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .square {
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: -10px;
+        right: -10px;
+        background-color: darken($section-bg-sec, 10%);
+      }
+    }
+  }
+
+  .section {
+    padding: 80px 0;
+
+    &.second{
+      background: url("/../images/bg-section.png"), url("/../images/bg-section-2.png"), $section-bg-sec;
+      background-position: left bottom, right top;
+      background-repeat: no-repeat;
+      background-size: 200px;
+    }
+
+    .title-wrapper-center {
+      margin-bottom: 80px;
+
+      h3.title {
+        font-family: $font-heading;
+        text-align: center;
+        color: $font-color-heading;
+        font-size: 2.5rem;
+        margin-bottom: 0px;
+        position: relative;
+
+        &:before, &:after {
+          content: '';
+          width: 35%;
+          height: 1px;
+          background-color: #DFDFDF;
+          position: absolute;
+          top: calc(50% - 1px);
+        }
+
+        &:before {
+          left: 15px;
+        }
+
+        &:after {
+          right: 15px;
+        }
+      }
+    }
+
+    .text-left-module {
+      .title-wrapper-left {
+        h3.title {
+          font-family: $font-heading;
+          color: $font-color-heading;
+          font-size: 2.5rem;
+          margin-bottom: 40px;
+          position: relative;
+
+          &:after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            background-color: $primary-color;
+            left: 0;
+            bottom: -20px;
+          }
+        }
+      }
+
+      .description-wrapper {
+        p {
+          color: $font-color-text;
+          font-weight: 300;
+          text-align: justify;
+        }
+      }
+
+      .button-wrapper {
+        margin: 30px 0;
+      }
+    }
+
+
+    &.about-us {
+
+      .circle-container {
+        margin: 30px 0;
+
+        .circle-wrapper {
+          height: 220px;
+          width: 220px;
+          margin: 0 auto;
+          border-radius: 50%;
+          border: 13px solid #FFFFFF;
+          box-shadow: 0 0 34px -21px rgba(0, 0, 0, 0.50);
+          position: relative;
+          background-position: top center;
+
+          &#circle-bawialnia {
+            background-image: url("/../images/circle-bg-1.png");
+          }
+
+          &#circle-kawiarnia {
+            background-image: url("/../images/circle-bg-3.png");
+          }
+
+          &#circle-urodziny {
+            background-image: url("/../images/circle-bg-2.png");
+            background-position: 30%;
+          }
+
+          .title {
+            position: absolute;
+            bottom: 10px;
+            width: 110%;
+            left: -5%;
+            border-radius: 10px;
+            height: 50px;
+            background-color: $primary-color;
+            text-align: center;
+            color: #FFFFFF;
+            line-height: 50px;
+
+            p {
+              margin: 0;
+            }
+
+          }
+        }
+
+        .description-wrapper {
+          margin-top: 30px;
+          text-align: center;
+          font-weight: 300;
+          color: $font-color-text;
+          padding: 0 20px;
+        }
+      }
+
+    }
+
+    &.bawialnia {
+      .image-wrapper {
+        text-align: center;
+
+        img {
+          width: 100%;
+          border: 8px solid #FFFFFF;
+          box-shadow: 0 0 34px -21px rgba(0, 0, 0, 0.50);
+        }
+      }
+    }
+
+    &.kawiarnia{
+      padding-top: 130px;
+      .image-wrapper-double{
+        width: 100%;
+        text-align: right;
+        margin-top: 40px;
+
+        .img-first{
+          position: relative;
+        }
+        img{
+          width: 100%;
+          border: 8px solid #FFFFFF;
+          box-shadow: 0 0 34px -21px rgba(0, 0, 0, 0.50);
+        }
+
+        .behind-image{
+          position: absolute;
+          left: -45%;
+          width: 90%;
+          z-index: 1;
+          top: -25%;
+        }
+      }
+    }
+
+    &.gallery{
+      .gallery-container{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .item{
+          width: calc(100% / 4 - 10px);
+          height: 250px;
+          margin: 5px 0;
+          overflow: hidden;
+
+          a{
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            height: 100%;
+            z-index: 3;
+
+
+            .img-bg{
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background-image: url("/../images/gallery/1.jpeg");
+              background-size: cover;
+              transition: transform 0.2s ease-in;
+            }
+
+
+            &:hover .img-bg{
+              transform: scale(1.2);
+            }
+          }
+        }
+      }
+    }
+    &.contact{
+      background-color: #F5F5F5;
+      width: 100%;
+
+      .title{
+        font-family: $font-heading;
+        color: $font-color-heading;
+        margin-bottom: 40px;
+        h4{
+          font-size: 2.5rem;
+        }
+      }
+
+      .contact-item{
+        margin-bottom: 30px;
+        margin-left: 40px;
+        position: relative;
+
+        p{
+          margin-bottom: 5px;
+          font-size: 1rem;
+          font-weight: 300;
+          color: $font-color-heading;
+
+          &.description{
+            margin-top: 10px;
+            color: $font-color-text;
+          }
+        }
+
+        &:before{
+          content: '';
+          position: absolute;
+          left:-40px;
+          top:5px;
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+          width: 15px;
+          height: 15px;
+        }
+
+        &.phone:before{
+          background-image: url("/../images/phone-icon-color.png");
+        }
+
+        &.address:before{
+          background-image: url("/../images/pin-icon-color.png");
+        }
+
+
+      }
+
+      #map{
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        right: 0;
+        top:0;
+      }
+    }
+  }
+}
+
+
+// Media queries
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .home-page {
+    .top-section {
+
+      .buttons-wrapper {
+        flex-direction: column;
+
+        a {
+          flex: 1 0 0;
+
+          &:nth-of-type(1) {
+            margin-right: 0;
+            margin-bottom: 20px;
+          }
+
+          &:nth-of-type(2) {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+  .home-page .section.bawialnia .image-wrapper img {
+    margin: 0 auto 55px;
+    width: 70%;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .home-page .section.gallery .gallery-container .item{
+    width: calc(100% / 2 - 10px);
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}

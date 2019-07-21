@@ -1,0 +1,151 @@
+@import '../variables';
+
+
+.section {
+  padding: 80px 0;
+
+  &.second {
+    background: url("/../images/bg-section.png"), url("/../images/bg-section-2.png"), $section-bg-sec;
+    background-position: left bottom, right top;
+    background-repeat: no-repeat;
+    background-size: 200px;
+  }
+
+  .title-wrapper-center {
+    margin-bottom: 80px;
+
+    h3.title {
+      font-family: $font-heading;
+      text-align: center;
+      color: $font-color-heading;
+      font-size: 2.5rem;
+      margin-bottom: 0px;
+      position: relative;
+
+      &:before, &:after {
+        content: '';
+        width: 35%;
+        height: 1px;
+        background-color: #DFDFDF;
+        position: absolute;
+        top: calc(50% - 1px);
+      }
+
+      &:before {
+        left: 15px;
+      }
+
+      &:after {
+        right: 15px;
+      }
+    }
+  }
+
+  .text-left-module {
+    .title-wrapper-left {
+      h3.title {
+        font-family: $font-heading;
+        color: $font-color-heading;
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+        position: relative;
+
+        &:after {
+          content: '';
+          position: absolute;
+          width: 40px;
+          height: 2px;
+          background-color: $primary-color;
+          left: 0;
+          bottom: -20px;
+        }
+      }
+    }
+
+    .description-wrapper {
+      p {
+        color: $font-color-text;
+        font-weight: 300;
+        text-align: justify;
+      }
+    }
+
+    .button-wrapper {
+      margin: 30px 0;
+    }
+  }
+
+  &.about-us{
+
+    .about-title{
+      text-align: center;
+      font-weight: 400;
+      color: $font-color-heading;
+      font-family: $font-heading;
+
+      span{
+        color: $primary-color
+      }
+    }
+    .about-text{
+      text-align: center;
+      font-weight: 300;
+      margin-top: 40px;
+    }
+  }
+
+  &.kawiarnia{
+    .image-wrapper{
+      margin-left: -120px;
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .home-page {
+    .top-section {
+
+      .buttons-wrapper {
+        flex-direction: column;
+
+        a {
+          flex: 1 0 0;
+
+          &:nth-of-type(1) {
+            margin-right: 0;
+            margin-bottom: 20px;
+          }
+
+          &:nth-of-type(2) {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .section.kawiarnia{
+    .image-wrapper{
+      display: none;
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .section.kawiarnia{
+    .image-wrapper{
+      margin-left: -290px;
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}

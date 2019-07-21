@@ -1,0 +1,122 @@
+.section {
+  padding: 80px 0;
+}
+
+.section.second {
+  background: url("/../images/bg-section.png"), url("/../images/bg-section-2.png"), #FDFDFD;
+  background-position: left bottom, right top;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.section .title-wrapper-center {
+  margin-bottom: 80px;
+}
+
+.section .title-wrapper-center h3.title {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  color: #636363;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.section .title-wrapper-center h3.title:before,
+.section .title-wrapper-center h3.title:after {
+  content: "";
+  width: 35%;
+  height: 1px;
+  background-color: #DFDFDF;
+  position: absolute;
+  top: calc(50% - 1px);
+}
+
+.section .title-wrapper-center h3.title:before {
+  left: 15px;
+}
+
+.section .title-wrapper-center h3.title:after {
+  right: 15px;
+}
+
+.section .text-left-module .title-wrapper-left h3.title {
+  font-family: "Amatic SC", cursive;
+  color: #636363;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section .text-left-module .title-wrapper-left h3.title:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #60a980;
+  left: 0;
+  bottom: -20px;
+}
+
+.section .text-left-module .description-wrapper p {
+  color: #AFAFAF;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.section .text-left-module .button-wrapper {
+  margin: 30px 0;
+}
+
+.section.about-us .about-title {
+  text-align: center;
+  font-weight: 400;
+  color: #636363;
+  font-family: "Amatic SC", cursive;
+}
+
+.section.about-us .about-title span {
+  color: #60a980;
+}
+
+.section.about-us .about-text {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.section.kawiarnia .image-wrapper {
+  margin-left: -120px;
+}
+
+@media (max-width: 575.98px) {
+  .home-page .top-section .buttons-wrapper {
+    flex-direction: column;
+  }
+
+  .home-page .top-section .buttons-wrapper a {
+    flex: 1 0 0;
+  }
+
+  .home-page .top-section .buttons-wrapper a:nth-of-type(1) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .home-page .top-section .buttons-wrapper a:nth-of-type(2) {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section.kawiarnia .image-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section.kawiarnia .image-wrapper {
+    margin-left: -290px;
+  }
+}
+
