@@ -10940,6 +10940,29 @@ body {
   top: 0;
 }
 
+.current-site-wrapper {
+  padding: 40px 0;
+  background-color: #ffffff;
+}
+
+.current-site-wrapper .title > * {
+  font-family: "Amatic SC", cursive;
+  color: #636363;
+  font-size: 2.5rem;
+  margin-left: 30px;
+  position: relative;
+}
+
+.current-site-wrapper .title > *:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #FFC964;
+  position: absolute;
+  left: -30px;
+  top: calc(50% - 15px/2);
+}
+
 @media (max-width: 767.98px) {
   .main#app .header-container .header-wrapper .contact-wrapper {
     display: none;

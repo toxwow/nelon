@@ -188,48 +188,74 @@
     </script>
 @endpush
 @section('content')
-        <div class="section second about-us">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="title-wrapper-center">
-                            <h3 class="title">O nas</h3>
-                        </div>
-                    </div>
-                    <div class="col-9 mx-auto">
-                        <h2 class="about-title"><span>Nelon</span> to połączenie wewnętrznego placu zabaw<br>ze strefą odpoczynku i pracy dla rodziców.</h2>
-                        <p class="about-text">
-                            Nasza bawialnia to bezpieczne przestrzeń wyposażona w mądre i nieszablonowe zabawki. U nas dzieci mogą m.in. rozwijać swoją kreatywność, uczyć się logiki czy też ćwiczyć swoje zmysły. Zabawa oraz ruch dostarczają bodźców, których dzieci potrzebują do prawidłowego rozwoju. Ponadto poprzez kontakt z rówieśnikami dzieci uczą się zachowań społecznych, jest to dla nich trening współpracy.
-                        </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="current-site-wrapper">
+                    <div class="title">
+                        <h3>O nas</h3>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section kawiarnia">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-5 mx-auto d-flex align-items-center">
-                        <div class="image-wrapper">
-                            <img src="{{asset('images/double-img.png')}}" alt="">
-                        </div>
+    </div>
+    <div class="section second idea">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-5 d-none d-lg-block">
+                    <div class="img-wrapper">
+                        <img src="{{asset('images/toy-square.png')}}" alt="">
                     </div>
-                    <div class="col-12 col-md-5 mx-auto d-flex align-items-center">
-                        <div class="text-left-module">
-                            <div class="title-wrapper-left">
-                                <h3 class="title">Nasza kawiarnia to nie „kącik kawowy”. U nas jest zdrowo i pysznie</h3>
-                            </div>
-                            <div class="description-wrapper">
-                                <p>Wszyscy nasi dostawcy to ludzie, którzy tworzą swoje produkty wkładając w to całe swoje serce – zupełnie jak my dlatego wszystkie ciasta, tarty i napoje są takie smaczne!</p>
-                                <p>A dla dzieciaków, tylko zdrowe przekąski i napoje - nie znajdziesz u nas coca-coli czy chipsów.</p>
-                            </div>
-                            <div class="button-wrapper">
-                                <a class="btn btn-primary" href="">zobacz menu</a>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <div class="text-card">
+                        <h2>Skąd pomysł na bawialnie eko?</h2>
+                        <p>Wierzymy, że bycie ekologicznym to przede wszystkim sposób myślenia, przejawiający się w codziennych wyborach, nawet tych najmniejszych. Dlatego zabawki, które u nas znajdziesz nie są z plastiku, a większość jest wykonana z drewna.</p>
+                        <p>Poza chęcią dbania o nasze środowisko warto wspomnieć, że zabawki drewniane są dużo bezpieczniejsze od plastikowych. Dzięki nasączeniu drewna odpowiednimi olejkami są w pełni antybakteryjne, zapobiega to też powstawaniu pleśni. Inne materiały które u nas znajdziecie to np. bawełna organiczna - wolna od toksyn i niebezpiecznych barwników</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="section toys-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper-center">
+                        <h3 class="title">Nasze zabawki</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 mb-5">
+                    <div class="img-wrapper-toys">
+                        <img src="{{asset('images/toys/1.png')}}" alt="" class="item">
+                        <img src="{{asset('images/toys/2.png')}}" alt="" class="item">
+                        <img src="{{asset('images/toys/3.png')}}" alt="" class="item">
+                        <img src="{{asset('images/toys/4.png')}}" alt="" class="item">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mb-5">
+                    <div class="description-text">
+                        <p>Wiele z naszych zabawek jest wykonywanych ręcznie co czyni je w porównaniu do zwykłych plastikowych - wyjątkowymi. Oryginalny i piękny wygląd przyciąga spojrzenie nie tylko najmłodszych, a nie jeden rodzic chciałby z powrotem wrócić do czasów, gdy był małym dzieckiem.</p>
+                        <p>Nasze zabawki nie świecą i nie grają. Uczą kreatywności i logiki. Pobudzają dziecięcą fantazję Nie narzucamy dzieciom jak mają się bawić, dajemy im swobodę i cieszymy się, gdy odkryją coś nowego.</p>
+                        <div class="logo-toys">
+                            <p>W naszej bawialni znajdziecie wiele wspaniałych i pięknych zabawek.</p>
+                            <p>W naszym asortymencie znajdują się zabawki z firm takich jak:</p>
+                            <div class="logo-wrapper">
+                                <img src="{{asset('images/toys/logo/1.png')}}" alt="" class="logo">
+                                <img src="{{asset('images/toys/logo/2.png')}}" alt="" class="logo">
+                                <img src="{{asset('images/toys/logo/3.png')}}" alt="" class="logo">
+                                <img src="{{asset('images/toys/logo/4.png')}}" alt="" class="logo">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
 
         <div class="section contact position-relative">
             <div class="container">

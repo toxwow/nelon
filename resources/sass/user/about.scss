@@ -75,28 +75,78 @@
     }
   }
 
-  &.about-us{
 
-    .about-title{
-      text-align: center;
-      font-weight: 400;
-      color: $font-color-heading;
-      font-family: $font-heading;
+  &.idea{
 
-      span{
-        color: $primary-color
-      }
+    .img-wrapper{
+      width: 100%;
     }
-    .about-text{
-      text-align: center;
-      font-weight: 300;
-      margin-top: 40px;
+    .text-card{
+      background: #FFFFFF;
+      box-shadow: 0 0 34px -21px rgba(0,0,0,0.50);
+      padding: 40px 60px;
+      z-index: 4;
+      margin-left: -40px;
+
+      h2{
+        font-family: $font-heading;
+        color: $font-color-heading;
+        margin-bottom: 30px;
+      }
+      p{
+        font-weight: 300;
+        color: $font-color-text;
+        text-align: justify;
+        font-size: 0.92rem;
+      }
+
     }
   }
 
-  &.kawiarnia{
-    .image-wrapper{
-      margin-left: -120px;
+  &.toys-about{
+    .img-wrapper-toys{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+
+      .item{
+        display: flex;
+        width: 50%;
+      }
+    }
+    .description-text{
+      margin-left: 20px;
+      p{
+        font-weight: 300;
+        font-size: 0.92rem;
+        text-align: justify;
+      }
+
+      .logo-toys{
+        margin-top: 60px;
+        p:first-of-type{
+          font-weight: 400;
+          color: $font-color-heading;
+          margin-bottom: 0;
+        }
+
+        .logo-wrapper{
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: space-between;
+
+          img.logo{
+            opacity: 0.4;
+            transition: opacity 0.25s ease-in;
+
+            &:hover{
+              opacity: 1;
+            }
+          }
+        }
+
+      }
     }
   }
 }
@@ -138,14 +188,15 @@
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-  .section.kawiarnia{
-    .image-wrapper{
-      margin-left: -290px;
-    }
-  }
+
+
 }
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
+
+  .section.idea .text-card{
+    margin-left: 0;
+  }
 
 }
