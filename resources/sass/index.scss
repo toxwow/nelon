@@ -50,6 +50,10 @@ body {
   }
 }
 
+.btn-primary.disabled, .btn-primary:disabled{
+  border-color:transparent;
+}
+
 .main#app {
 
   .header-container {
@@ -262,6 +266,7 @@ body {
     height: 100%;
     width: 50%;
     right: 0;
+    display: block;
     top:0;
   }
 }
@@ -334,7 +339,17 @@ body {
         display: flex;
       }
     }
+
+    .section.contact #map{
+      display: none;
+
+    }
   }
+}
+
+
+.modal-header{
+  border-bottom: none;
 }
 
 // Medium devices (tablets, less than 992px)

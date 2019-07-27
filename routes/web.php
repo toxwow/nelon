@@ -20,3 +20,5 @@ Auth::routes();
 Route::get('/login', 'HomeController@index')->name('login');
 Route::get('/', 'IndexController@index')->name('home');
 Route::get('/o-nas', 'IndexController@about')->name('about');
+Route::get('/kawiarnia', 'IndexController@cafe')->name('cafe');
+Route::get('/kontakt', 'IndexController@contact')->name('contact');

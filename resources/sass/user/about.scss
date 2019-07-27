@@ -184,6 +184,11 @@
       display: none;
     }
   }
+
+  .section.toys-about .description-text .logo-toys .logo-wrapper {
+    flex-direction: column;
+    margin: 30px 0;
+  }
 }
 
 // Medium devices (tablets, less than 992px)

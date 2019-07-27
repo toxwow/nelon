@@ -59,10 +59,10 @@
                         <div class="menu-wrapper">
                             <a class="menu-item" href="{{route('home')}}">Home</a>
                             <a class="menu-item" href="{{route('about')}}">O nas</a>
-                            <a class="menu-item" href="">Kawiarnia</a>
+                            <a class="menu-item" href="{{route('cafe')}}">Kawiarnia</a>
                             <a class="menu-item" href="">Cennik</a>
                             <a class="menu-item" href="">Regulamin</a>
-                            <a class="menu-item" href="">Kontakt</a>
+                            <a class="menu-item" href="{{route('contact')}}">Kontakt</a>
                         </div>
                     </div>
                 </div>

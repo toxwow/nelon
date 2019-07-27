@@ -15,4 +15,14 @@ class IndexController extends Controller
     {
         return view('user.about');
     }
+
+    public function cafe()
+    {
+        return view('user.cafe');
+    }
+
+    public function contact()
+    {
+        return view('user.contact');
+    }
 }
