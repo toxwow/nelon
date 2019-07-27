@@ -234,7 +234,7 @@
                             <img src="{{asset('images/mikrocukiernia/4.png')}}" alt="" class="item">
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 mb-5 ">
+                    <div class="col-12 col-lg-6 mb-5 ml-auto ">
                         <div class="title">
                             <div class="name">
                                 <img src="{{asset('images/cupcake-dessert.png')}}" alt="">
