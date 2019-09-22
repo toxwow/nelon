@@ -32,7 +32,7 @@
                             </div>
                         </div>
                         <div class="logo-wrapper">
-                            <a href="/"><img src="{{asset('/images/logo.png')}}" alt=""></a>
+                            <a href="/"><img src="{{asset('/images/logo_nelon.png')}}" alt=""></a>
                         </div>
                         <div class="social-wrapper">
                             <a href=""><img src="{{asset('/images/fb-logo.png')}}" alt=""></a>

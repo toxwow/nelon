@@ -149,6 +149,31 @@
       }
     }
   }
+  &.opinion{
+    .opinion-container{
+      background-color: #1b4b72;
+      width: 100%;
+      height: 400px;
+      overflow: hidden;
+      position: relative;
+
+      .opinion-wrapper{
+        position: absolute;
+        height: 200px;
+        width: 300%;
+        margin-top: 100px;
+        left: -15%;
+        display: flex;
+        transition: all 0.5s ease-in;
+
+        .item{
+          width: calc((90% / 3));
+          margin-left: 10%;
+          height: 100%;
+        }
+      }
+    }
+  }
 }
 
 // Extra small devices (portrait phones, less than 576px)

@@ -15,6 +15,7 @@ body {
 .btn{
   border: 1px solid $secondary-color;
   padding: 1rem 2rem;
+  align-self: center;
 
   &.btn-primary{
     background-color: $secondary-color;
@@ -38,13 +39,12 @@ body {
     }
 
     &.outline{
-      background-color: transparent;
-      border: 1px solid $secondary-color;
-      color: $secondary-color;
+      background-color: #A4B8B8;
+      border: 1px solid #A4B8B8;
+      color: white;
 
       &:hover{
-        color: #FFFFFF;
-        background-color: $secondary-color;
+        background-color: darken(#A4B8B8, 10%);
       }
     }
   }
@@ -110,7 +110,7 @@ body {
         text-align: center;
 
         a img {
-          width: 200px;
+          width: 100px;
         }
       }
 
@@ -160,7 +160,7 @@ body {
         transition: background-color 0.2s ease-in;
 
         &:hover {
-          background-color: #408f68;
+          background-color: darken($primary-color, 10%);
           color: #ffffff;
         }
       }
@@ -213,6 +213,10 @@ body {
 .section.contact{
   background-color: #F5F5F5;
   width: 100%;
+  background-image: url("/../images/bg-contact.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 300px;
 
   .title{
     font-family: $font-heading;
@@ -359,5 +363,14 @@ body {
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
+
+}
+
+
+// Custom devices (desktops, less than 1200px)
+@media (max-width: 1579.98px) {
+  .section.contact {
+    background-image: none;
+  }
 
 }

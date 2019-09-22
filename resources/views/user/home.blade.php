@@ -81,7 +81,7 @@
                 <div class="row">
                     <div class="col-12 col-md-5 mx-auto d-flex align-items-center">
                         <div class="image-wrapper">
-                            <img src="{{asset('images/mom.png')}}" alt="">
+                            <img src="{{asset('images/bawialnia-section-home.png')}}" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-5 mx-auto d-flex align-items-center">
@@ -142,43 +142,43 @@
                     <div class="col-12">
                         <div class="gallery-container">
                             <div class="item">
-                                <a href="{{asset('images/gallery/1.jpeg')}}" data-lightbox="roadtrip">
-                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/1.jpeg')}}')"></div>
+                                <a href="{{asset('images/gallery/1.jpg')}}" data-lightbox="roadtrip">
+                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/1.jpg')}}')"></div>
                                 </a>
                             </div>
                             <div class="item">
-                                <a href="{{asset('images/gallery/2.jpeg')}}" data-lightbox="roadtrip">
-                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/2.jpeg')}}')"></div>
+                                <a href="{{asset('images/gallery/2.jpg')}}" data-lightbox="roadtrip">
+                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/2.jpg')}}')"></div>
                                 </a>
                             </div>
                             <div class="item">
-                                <a href="{{asset('images/gallery/3.jpeg')}}" data-lightbox="roadtrip">
-                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/3.jpeg')}}')"></div>
+                                <a href="{{asset('images/gallery/3.jpg')}}" data-lightbox="roadtrip">
+                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/3.jpg')}}')"></div>
                                 </a>
                             </div>
                             <div class="item">
-                                <a href="{{asset('images/gallery/4.jpeg')}}" data-lightbox="roadtrip">
-                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/4.jpeg')}}')"></div>
+                                <a href="{{asset('images/gallery/4.jpg')}}" data-lightbox="roadtrip">
+                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/4.jpg')}}')"></div>
                                 </a>
                             </div>
                             <div class="item">
-                                <a href="{{asset('images/gallery/5.jpeg')}}" data-lightbox="roadtrip">
-                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/5.jpeg')}}')"></div>
+                                <a href="{{asset('images/gallery/5.jpg')}}" data-lightbox="roadtrip">
+                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/5.jpg')}}')"></div>
                                 </a>
                             </div>
                             <div class="item">
-                                <a href="{{asset('images/gallery/6.jpeg')}}" data-lightbox="roadtrip">
-                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/6.jpeg')}}')"></div>
+                                <a href="{{asset('images/gallery/6.jpg')}}" data-lightbox="roadtrip">
+                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/6.jpg')}}')"></div>
                                 </a>
                             </div>
                             <div class="item">
-                                <a href="{{asset('images/gallery/1.jpeg')}}" data-lightbox="roadtrip">
-                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/1.jpeg')}}')"></div>
+                                <a href="{{asset('images/gallery/7.jpg')}}" data-lightbox="roadtrip">
+                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/7.jpg')}}')"></div>
                                 </a>
                             </div>
                             <div class="item">
-                                <a href="{{asset('images/gallery/2.jpeg')}}" data-lightbox="roadtrip">
-                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/2.jpeg')}}')"></div>
+                                <a href="{{asset('images/gallery/8.jpg')}}" data-lightbox="roadtrip">
+                                    <div class="img-bg" style="background-image: url('{{asset('images/gallery/8.jpg')}}')"></div>
                                 </a>
                             </div>
 

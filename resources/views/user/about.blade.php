@@ -6,6 +6,8 @@
 @endpush
 @push('scripts')
     <script src="{{ asset('js/user/index.js') }}"></script>
+    <script src="https://code.jquery.com/ui/jquery-ui-git.js" defer></script>
+    <script src="{{ asset('js/user/about.js') }}" defer></script>
 @endpush
 @section('content')
     <div class="container">
@@ -74,6 +76,23 @@
             </div>
         </div>
     </div>
+    <div id='strawberry-plant' data-fruit='12'></div>
+
+    {{--<div class="section second opinion">--}}
+        {{--<div class="container">--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-12">--}}
+                    {{--<div class="opinion-container" id="mydiv">--}}
+                        {{--<div class="opinion-wrapper" id="draggable2">--}}
+                            {{--<div data-item="1" class="item" id="chuj" style="background-color: yellow"></div>--}}
+                            {{--<div data-item="2" class="item" style="background-color: green"></div>--}}
+                            {{--<div data-item="3" class="item" style="background-color: pink"></div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
 
 
     @component('layouts/components/contactBlock') @endcomponent
