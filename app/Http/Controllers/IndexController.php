@@ -21,6 +21,16 @@ class IndexController extends Controller
         return view('user.cafe');
     }
 
+    public function term()
+    {
+        return view('user.term');
+    }
+
+    public function price()
+    {
+        return view('user.price');
+    }
+
     public function contact()
     {
         return view('user.contact');

@@ -10,10 +10,25 @@
     background-size: 200px;
   }
 
-  &.offer {
+  &.terms {
 
     .img-wrapper {
       width: 100%;
+    }
+
+    ul.nav{
+      li.nav-item a.nav-link{
+
+        &:first-child{
+          margin-right: 20px;
+        }
+        &.active{
+          background-color: $primary-color;
+
+        }
+        background-color: #b9c5cd;
+        color: #fff;
+      }
     }
 
     .text-card {
@@ -224,8 +239,8 @@
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
 
-  .section.offer .text-card {
-
+  .section.terms .text-card {
+    padding: 40px 15px;
     margin-left: 0;
   }
 }

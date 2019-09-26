@@ -31,7 +31,7 @@
                 <div class="col-12 col-lg-6">
                     <div class="text-card">
                         <h2>Poznaj naszą ofertę</h2>
-                        <p>Kawiarnia w bawialni w pierwszej kolejności kojarzy się z kawą i ciastkiem dla rodzica. U nas jest podobnie. To co nas wyróżnia to fakt, że wszystkie produkty które sprzedajemy w naszej kawiarni są wybrane z wielką starannością. Dodatkowo sprzedajemy przekąski dla dzieci.  U nas jednak jest ekologicznie i zdrowo – krótkie i proste składy to podstawa! </p>
+                        <p>Kawiarnia w bawialni w pierwszej kolejności kojarzy się z kawą i ciastkiem dla rodzica. U nas jest podobnie. To co nas wyróżnia to fakt, że wszystkie produkty, które sprzedajemy w naszej kawiarni są wybrane z wielką starannością. Dodatkowo sprzedajemy przekąski dla dzieci.  U nas jednak jest ekologicznie i zdrowo – krótkie i proste składy to podstawa! </p>
                         <a href="#menu-scroll" class="link">zobacz menu</a>
                     </div>
                 </div>
@@ -57,16 +57,16 @@
                                 <span>6.00</span>
                             </li>
                             <li>
-                                <span>DOPIO</span>
+                                <span>AMERICANO</span>
+                                <span>6.00</span>
+                            </li>
+                            <li>
+                                <span>CAPPUCCINO</span>
                                 <span>8.00</span>
                             </li>
                             <li>
-                                <span>AMERICANO</span>
-                                <span>9.00</span>
-                            </li>
-                            <li>
                                 <span>LATTE</span>
-                                <span>12.00</span>
+                                <span>9.00</span>
                             </li>
                         </ul>
                     </div>
@@ -74,23 +74,19 @@
 
                 <div class="col-12 col-md-5 ml-auto my-3">
                     <div class="position-menu">
-                        <h4 class="title">Kawa</h4>
+                        <h4 class="title">Herbata</h4>
                         <ul class="items-menu">
                             <li>
-                                <span>ESPRESSO</span>
+                                <span>CZARNA</span>
                                 <span>6.00</span>
                             </li>
                             <li>
-                                <span>DOPIO</span>
-                                <span>8.00</span>
+                                <span>ZIELONA</span>
+                                <span>6.00</span>
                             </li>
                             <li>
-                                <span>AMERICANO</span>
-                                <span>9.00</span>
-                            </li>
-                            <li>
-                                <span>LATTE</span>
-                                <span>12.00</span>
+                                <span>OWOCOWA</span>
+                                <span>6.00</span>
                             </li>
                         </ul>
                     </div>
@@ -99,23 +95,19 @@
             <div class="row">
                 <div class="col-12 col-md-5 mr-auto my-3">
                     <div class="position-menu">
-                        <h4 class="title">Kawa</h4>
+                        <h4 class="title">Napoje</h4>
                         <ul class="items-menu">
                             <li>
-                                <span>ESPRESSO</span>
-                                <span>6.00</span>
+                                <span>WODA MINERALNA 300ml</span>
+                                <span>4.00</span>
                             </li>
                             <li>
-                                <span>DOPIO</span>
+                                <span>WODA MINERALNA 700ml</span>
                                 <span>8.00</span>
                             </li>
                             <li>
-                                <span>AMERICANO</span>
-                                <span>9.00</span>
-                            </li>
-                            <li>
-                                <span>LATTE</span>
-                                <span>12.00</span>
+                                <span>SOKI TŁOCZONE 300ml</span>
+                                <span>6.00</span>
                             </li>
                         </ul>
                     </div>
@@ -123,23 +115,18 @@
 
                 <div class="col-12 col-md-5 ml-auto my-3">
                     <div class="position-menu">
-                        <h4 class="title">Kawa</h4>
+                        <h4 class="title">Wypieki (oferta zmienna)</h4>
                         <ul class="items-menu">
                             <li>
-                                <span>ESPRESSO</span>
-                                <span>6.00</span>
+                                <span>COŚ NA SŁODKO</span>
+                                <span>4.00 - 9.00</span>
                             </li>
                             <li>
-                                <span>DOPIO</span>
-                                <span>8.00</span>
+                                <span>COŚ NA SŁONO</span>
+                                <span>4.00 - 9.00</span>
                             </li>
-                            <li>
-                                <span>AMERICANO</span>
-                                <span>9.00</span>
-                            </li>
-                            <li>
-                                <span>LATTE</span>
-                                <span>12.00</span>
+                            <li class="no-dot">
+                                <span>Ponadto w ofercie zdrowe przekąski dla dzieci oraz świeże owoce.</span>
                             </li>
                         </ul>
                     </div>
@@ -206,10 +193,21 @@
                     <div class="card">
                         <div class="title">
                             <img src="{{asset('images/icon-more-coffe/mom.png')}}" alt="">
-                            <h5>Miejsca do pracy</h5>
+                            <h5>Możliwoś karmienia</h5>
                         </div>
                         <div class="description">
-                            <p>Twój maluszek jeszcze jest na piersi? U nas możesz spokojnie nakarmić przy stoliku,</p>
+                            <p>Twój maluszek jeszcze jest na piersi? U nas możesz spokojnie nakarmić przy stoliku.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex my-3">
+                    <div class="card">
+                        <div class="title">
+                            <img src="{{asset('images/icon-more-coffe/meeting.png')}}" alt="">
+                            <h5>Miejsce spotkań</h5>
+                        </div>
+                        <div class="description">
+                            <p>Dysponujemy jednym dużym stołem przy którym możesz spotykać się w większej grupie.</p>
                         </div>
                     </div>
                 </div>

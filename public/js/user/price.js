@@ -81,75 +81,30 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./resources/js/user/about.js":
+/***/ "./resources/js/user/price.js":
 /*!************************************!*\
-  !*** ./resources/js/user/about.js ***!
+  !*** ./resources/js/user/price.js ***!
   \************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var _start, _stop;
 
-var startItem = 1;
-var count = $("#draggable2 > *").length;
-console.log(count);
-$("#draggable2").draggable({
-  axis: "x",
-  start: function start(event, ui) {
-    _start = ui.position.left;
-    console.log("start");
-  },
-  stop: function stop(event, ui) {
-    _stop = ui.position.left;
-
-    if (_start < _stop) {
-      startItem = startItem - 1;
-      console.log(startItem);
-
-      if (startItem < 1) {
-        $("#draggable2").css('left', '-215%');
-        startItem = 3;
-      } else {
-        if (startItem == 2) {
-          $("#draggable2").css('left', '-115%');
-        } else if (startItem == 1) {
-          $("#draggable2").css('left', '-15%');
-        }
-      } //
-
-    } else {
-      startItem = startItem + 1;
-      console.log(startItem);
-
-      if (startItem > count) {
-        $("#draggable2").css('left', '-15%');
-        startItem = 1;
-      } else {
-        if (startItem == 2) {
-          $("#draggable2").css('left', '-115%');
-        } else if (startItem == 3) {
-          $("#draggable2").css('left', '-215%');
-        }
-      }
-    }
-  }
-});
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!******************************************!*\
-  !*** multi ./resources/js/user/about.js ***!
+  !*** multi ./resources/js/user/price.js ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/tomasztomzynski/Sites/zlecenia/bawialnia/laravel/resources/js/user/about.js */"./resources/js/user/about.js");
+module.exports = __webpack_require__(/*! /Users/tomasztomzynski/Sites/zlecenia/bawialnia/laravel/resources/js/user/price.js */"./resources/js/user/price.js");
 
 
 /***/ })

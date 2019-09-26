@@ -110,7 +110,7 @@ body {
         text-align: center;
 
         a img {
-          width: 100px;
+          width: 110px;
         }
       }
 
@@ -303,7 +303,11 @@ body {
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-
+  .section .title-wrapper-center h3.title{
+    &:before, &:after{
+      width: 15% !important;
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)

@@ -10749,7 +10749,7 @@ body {
 }
 
 .main#app .header-container .header-wrapper .logo-wrapper a img {
-  width: 100px;
+  width: 110px;
 }
 
 .main#app .header-container .header-wrapper .social-wrapper {
@@ -10971,6 +10971,13 @@ body {
   position: absolute;
   left: -30px;
   top: calc(50% - 15px/2);
+}
+
+@media (max-width: 575.98px) {
+  .section .title-wrapper-center h3.title:before,
+  .section .title-wrapper-center h3.title:after {
+    width: 15% !important;
+  }
 }
 
 @media (max-width: 767.98px) {

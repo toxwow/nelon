@@ -49415,10 +49415,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/user/price.scss":
+/*!****************************************!*\
+  !*** ./resources/sass/user/price.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/user/term.scss":
+/*!***************************************!*\
+  !*** ./resources/sass/user/term.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/index.scss ./resources/sass/user/index.scss ./resources/sass/user/home.scss ./resources/sass/user/about.scss ./resources/sass/user/cafe.scss ./resources/sass/user/contact.scss ***!
-  \************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/index.scss ./resources/sass/user/index.scss ./resources/sass/user/home.scss ./resources/sass/user/about.scss ./resources/sass/user/term.scss ./resources/sass/user/price.scss ./resources/sass/user/cafe.scss ./resources/sass/user/contact.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -49427,6 +49449,8 @@ __webpack_require__(/*! /Users/tomasztomzynski/Sites/zlecenia/bawialnia/laravel/
 __webpack_require__(/*! /Users/tomasztomzynski/Sites/zlecenia/bawialnia/laravel/resources/sass/user/index.scss */"./resources/sass/user/index.scss");
 __webpack_require__(/*! /Users/tomasztomzynski/Sites/zlecenia/bawialnia/laravel/resources/sass/user/home.scss */"./resources/sass/user/home.scss");
 __webpack_require__(/*! /Users/tomasztomzynski/Sites/zlecenia/bawialnia/laravel/resources/sass/user/about.scss */"./resources/sass/user/about.scss");
+__webpack_require__(/*! /Users/tomasztomzynski/Sites/zlecenia/bawialnia/laravel/resources/sass/user/term.scss */"./resources/sass/user/term.scss");
+__webpack_require__(/*! /Users/tomasztomzynski/Sites/zlecenia/bawialnia/laravel/resources/sass/user/price.scss */"./resources/sass/user/price.scss");
 __webpack_require__(/*! /Users/tomasztomzynski/Sites/zlecenia/bawialnia/laravel/resources/sass/user/cafe.scss */"./resources/sass/user/cafe.scss");
 module.exports = __webpack_require__(/*! /Users/tomasztomzynski/Sites/zlecenia/bawialnia/laravel/resources/sass/user/contact.scss */"./resources/sass/user/contact.scss");
 

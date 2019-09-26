@@ -2,40 +2,96 @@
   padding: 80px 0;
 }
 
-.section.second {
-  background: url("/../images/bg-section.png"), url("/../images/bg-section-2.png"), #FDFDFD;
-  background-position: left bottom, right top;
+.section.price {
+  background: url("/../images/bg-left-price.png"), url("/../images/bg-right-price.png"), #FDFDFD;
+  background-position: left bottom, right bottom;
   background-repeat: no-repeat;
-  background-size: 200px;
+  background-size: 150px, 200px;
 }
 
-.section.offer .img-wrapper {
+.section.price .img-wrapper {
   width: 100%;
 }
 
-.section.offer .text-card {
-  background: #FFFFFF;
-  box-shadow: 0 0 34px -21px rgba(0, 0, 0, 0.5);
-  padding: 40px 60px;
-  z-index: 4;
-  margin-left: -40px;
+.section.price ul.nav li.nav-item a.nav-link {
+  background-color: #b9c5cd;
+  color: #fff;
 }
 
-.section.offer .text-card h2 {
+.section.price ul.nav li.nav-item a.nav-link:first-child {
+  margin-right: 20px;
+}
+
+.section.price ul.nav li.nav-item a.nav-link.active {
+  background-color: #87b07f;
+}
+
+.section.price .text-card {
+  background: #FFFFFF;
+  box-shadow: 0 0 34px -21px rgba(0, 0, 0, 0.5);
+  z-index: 4;
+  padding-top: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  transition: all 0.15s ease-in;
+}
+
+.section.price .text-card.blue {
+  background-image: url("/../images/bg-price-blue.png");
+}
+
+.section.price .text-card.pink {
+  background-image: url("/../images/bg-price-pink.png");
+}
+
+.section.price .text-card h2 {
   font-family: "Amatic SC", cursive;
   color: #636363;
   margin-bottom: 30px;
 }
 
-.section.offer .text-card p {
+.section.price .text-card p {
   font-weight: 300;
   color: #AFAFAF;
   text-align: justify;
   font-size: 0.92rem;
 }
 
-.section.offer .text-card a.link {
+.section.price .text-card a.link {
   color: #e9a08b;
+}
+
+.section.price .text-card h4.price {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 2.1rem;
+  text-align: center;
+}
+
+.section.price .text-card p.days {
+  text-align: center;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.section.price .text-card .content-list {
+  margin-top: 80px;
+}
+
+.section.price .text-card .content-list .item {
+  padding: 15px 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+.section.price .text-card .content-list .item:nth-of-type(even) {
+  background-color: #FAFAFA;
+}
+
+.section.price .text-card:hover {
+  transform: scale(1.05);
 }
 
 .section.menu-card .position-menu .title {
@@ -204,8 +260,15 @@
   right: 15px;
 }
 
+@media (max-width: 400.98px) {
+  .section.price .text-card {
+    padding-top: 20px;
+  }
+}
+
 @media (max-width: 991.98px) {
-  .section.offer .text-card {
+  .section.terms .text-card {
+    padding: 40px 15px;
     margin-left: 0;
   }
 }

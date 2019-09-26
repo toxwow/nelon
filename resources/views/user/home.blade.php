@@ -16,7 +16,7 @@
                 <div class="col-12 col-md-6">
                     <div class="top-section">
                         <div class="text-wrapper">
-                            <h1>Nelon - bawialnia dla dzieci</h1>
+                            <h1>Nelon – eko bawialnia dla dzieci</h1>
                             <h3>Przytulna kawiarnia dla rodziców.</h3>
                             <p>Wierzymy, że na wszystko powinien być czas. Rodzic powinien móc znaleźć miejsce, w którym może pobawić się z dzieckiem. Powinien móc też znaleźć czas na odpoczynek, gdy tego potrzebuje. Bawialnia Nelon to sala zabaw, na której możesz wspólnie z dzieckiem poznawać świat drewnianych zabawek lub pozwolić mu samodzielnie bawić się na bezpiecznej przestrzeni. Wtedy Ty możesz napić się kawy, porozmawiać ze znajomymi lub zrobić to na co wciąż brakuje Ci czasu. Zapłacić rachunki, wysłać maile? To również ważne i my to rozumiemy.</p>
                         </div>
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                         <div class="description-wrapper">
-                            <p>U nas czekają na Ciebie kawa, pyszne ciasto, a dla maluchów zdrowe przekąski i napoje</p>
+                            <p>40 metrowa sala zabaw dla dzieci wyposażona w mądre i nieszablonowe zabawki</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 circle-container">
@@ -70,7 +70,7 @@
                             </div>
                         </div>
                         <div class="description-wrapper">
-                            <p>Nelon to wspaniałe miejsce na urodziny. Organizujemy wydarzenia zamknięte.  Dowiedz się więcej</p>
+                            <p>Nelon to wspaniałe miejsce na urodziny dla dziecka w Krakowie. Organizujemy wydarzenia zamknięte.</p>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                                 <p>Maluchy lubią zabawy, które inspirują i stanowią dla nich wyzwanie, zatem pozwólmy im odkrywać świat po swojemu</p>
                             </div>
                             <div class="button-wrapper">
-                                <a class="btn btn-primary disabled" href="">zobacz regulamin</a>
+                                <a class="btn btn-primary" href="{{route('term')}}">zobacz regulamin</a>
                             </div>
                         </div>
                     </div>

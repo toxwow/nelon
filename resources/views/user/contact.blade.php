@@ -236,7 +236,7 @@
                                     <div class="line"></div>
                                     <div class="type pb-4">
                                         <p class="title">Dojazd samochodem</p>
-                                        <p class="description">W pobliżu stacji znajduje się mały darmowy parking. Można zaparkować również przy ulicy Kącik oraz przyległych. Uwaga obowiązuje strefa parkowania (płatne w godzinach 10:00 – 20:00)</p>
+                                        <p class="description">W pobliżu stacji znajduje się mały darmowy parking. Można zaparkować również przy ulicy Kącik oraz przyległych. <br> <strong>Uwaga</strong>, oprócz niedziel obowiązuje strefa parkowania (płatne w godzinach 10:00 – 20:00). Strefa dotyczy wyznaczonych miejsce, ale już np. nie obejmuje małe parkingu tuż przy bawialni.</p>
                                     </div>
                                 </div>
                             </div>

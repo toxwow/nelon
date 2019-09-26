@@ -35,9 +35,9 @@
                             <a href="/"><img src="{{asset('/images/logo_nelon.png')}}" alt=""></a>
                         </div>
                         <div class="social-wrapper">
-                            <a href=""><img src="{{asset('/images/fb-logo.png')}}" alt=""></a>
-                            <a href=""><img src="{{asset('/images/instagram-logo.png')}}" alt=""></a>
-                            <a href=""><img src="{{asset('/images/tripadvisor-logo.png')}}" alt=""></a>
+                            <a href="https://www.facebook.com/bawialnianelon/" target="_blank"><img src="{{asset('/images/fb-logo.png')}}" alt=""></a>
+                            <a href="https://www.instagram.com/bawialnia_nelon/?hl=pl" target="_blank"><img src="{{asset('/images/instagram-logo.png')}}" alt=""></a>
+                            {{--<a href=""><img src="{{asset('/images/tripadvisor-logo.png')}}" alt=""></a>--}}
                         </div>
                     </div>
                 </div>
@@ -60,8 +60,8 @@
                             <a class="menu-item" href="{{route('home')}}">Home</a>
                             <a class="menu-item" href="{{route('about')}}">O nas</a>
                             <a class="menu-item" href="{{route('cafe')}}">Kawiarnia</a>
-                            <a class="menu-item" href="">Cennik</a>
-                            <a class="menu-item" href="">Regulamin</a>
+                            <a class="menu-item" href="{{route('price')}}">Cennik</a>
+                            <a class="menu-item" href="{{route('term')}}">Regulamin</a>
                             <a class="menu-item" href="{{route('contact')}}">Kontakt</a>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
         @yield('content')
         <footer class="page-footer">
             <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">copyright © 2018
+            <div class="footer-copyright text-center py-3">copyright © 2019
             </div>
             <!-- Copyright -->
         </footer>

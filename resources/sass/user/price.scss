@@ -3,25 +3,50 @@
 .section {
   padding: 80px 0;
 
-  &.second {
-    background: url("/../images/bg-section.png"), url("/../images/bg-section-2.png"), $section-bg-sec;
-    background-position: left bottom, right top;
+  &.price {
+    background: url("/../images/bg-left-price.png"), url("/../images/bg-right-price.png"), $section-bg-sec;
+    background-position: left bottom, right bottom;
     background-repeat: no-repeat;
-    background-size: 200px;
+    background-size: 150px, 200px;
   }
 
-  &.offer {
+  &.price {
 
     .img-wrapper {
       width: 100%;
     }
 
+    ul.nav{
+      li.nav-item a.nav-link{
+
+        &:first-child{
+          margin-right: 20px;
+        }
+        &.active{
+          background-color: $primary-color;
+
+        }
+        background-color: #b9c5cd;
+        color: #fff;
+      }
+    }
+
     .text-card {
       background: #FFFFFF;
       box-shadow: 0 0 34px -21px rgba(0, 0, 0, 0.50);
-      padding: 40px 60px;
       z-index: 4;
-      margin-left: -40px;
+      padding-top: 40px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center top;
+
+        &.blue{
+          background-image: url("/../images/bg-price-blue.png");
+        }
+
+        &.pink{
+          background-image: url("/../images/bg-price-pink.png");
+        }
 
       h2 {
         font-family: $font-heading;
@@ -41,6 +66,39 @@
 
       }
 
+      h4.price{
+        margin-top: 10px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 2.1rem;
+        text-align: center;
+      }
+
+      p.days{
+        text-align: center;
+        color: #fff;
+        font-size: 1.1rem;
+      }
+
+      .content-list{
+        margin-top: 80px;
+
+        .item{
+          padding: 15px 0;
+          font-weight: 300;
+          text-align: center;
+
+          &:nth-of-type(even){
+            background-color: #FAFAFA;
+          }
+        }
+      }
+      transition: all 0.15s ease-in;
+
+    &:hover{
+      transform: scale(1.05);
+
+    }
     }
   }
 
@@ -217,6 +275,13 @@
 }
 
 // Small devices (landscape phones, less than 768px)
+@media (max-width: 400.98px) {
+  .section.price .text-card{
+    padding-top: 20px;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
 
 }
@@ -224,8 +289,8 @@
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
 
-  .section.offer .text-card {
-
+  .section.terms .text-card {
+    padding: 40px 15px;
     margin-left: 0;
   }
 }
