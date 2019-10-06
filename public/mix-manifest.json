@@ -5,6 +5,7 @@
     "/css/user/home.css": "/css/user/home.css",
     "/css/user/about.css": "/css/user/about.css",
     "/css/user/term.css": "/css/user/term.css",
+    "/css/user/price.css": "/css/user/price.css",
     "/css/user/cafe.css": "/css/user/cafe.css",
     "/css/user/contact.css": "/css/user/contact.css",
     "/js/index.js": "/js/index.js",
@@ -13,6 +14,5 @@
     "/js/user/contact.js": "/js/user/contact.js",
     "/js/user/index.js": "/js/user/index.js",
     "/js/user/price.js": "/js/user/price.js",
-    "/js/user/term.js": "/js/user/term.js",
-    "/css/user/price.css": "/css/user/price.css"
+    "/js/user/term.js": "/js/user/term.js"
 }

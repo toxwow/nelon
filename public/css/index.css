@@ -10941,6 +10941,10 @@ body {
   background-image: url("/../images/pin-icon-color.png");
 }
 
+.section.contact .contact-item.time:before {
+  background-image: url("/../images/clock-icon-color.png");
+}
+
 .section.contact #map {
   position: absolute;
   height: 100%;
@@ -10973,14 +10977,12 @@ body {
   top: calc(50% - 15px/2);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .section .title-wrapper-center h3.title:before,
   .section .title-wrapper-center h3.title:after {
     width: 15% !important;
   }
-}
 
-@media (max-width: 767.98px) {
   .main#app .header-container .header-wrapper .contact-wrapper {
     display: none;
   }

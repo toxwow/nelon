@@ -198,9 +198,13 @@
                         <h4>Masz pytania?</h4>
                         <h4>Skontatkuj się z nami</h4>
                     </div>
+                    <div class="contact-item time">
+                        <p>Godziny otwarcia:</p>
+                        <p style="font-weight: 600;">Od wtorku do niedzieli 11 - 19</p>
+                    </div>
                     <div class="contact-item address">
                         <p>Stacja Kolejowa Zabłocie,</p>
-                        <p>ul. Kącik 24; 30-549 Kraków</p>
+                        <p style="font-weight: 600;">ul. Kącik 24; 30-549 Kraków</p>
                         <p class="description">Znajdujemy się na parterze stacji (pod peronami)<br> bez obaw – łatwo nas znaleźć </p>
                     </div>
                     <div class="contact-item phone">

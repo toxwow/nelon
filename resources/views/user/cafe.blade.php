@@ -207,7 +207,7 @@
                             <h5>Miejsce spotkań</h5>
                         </div>
                         <div class="description">
-                            <p>Dysponujemy jednym dużym stołem przy którym możesz spotykać się w większej grupie.</p>
+                            <p>Dysponujemy m.in. jednym dużym stołem przy którym możesz spotykać się w większej grupie.</p>
                         </div>
                     </div>
                 </div>

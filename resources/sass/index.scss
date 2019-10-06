@@ -263,6 +263,10 @@ body {
     &.address:before{
       background-image: url("/../images/pin-icon-color.png");
     }
+
+    &.time:before{
+      background-image: url("/../images/clock-icon-color.png");
+    }
   }
 
   #map{
@@ -303,16 +307,16 @@ body {
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
   .section .title-wrapper-center h3.title{
     &:before, &:after{
       width: 15% !important;
     }
   }
-}
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-
   .main#app {
     .header-container {
 
