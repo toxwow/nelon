@@ -57,7 +57,7 @@
                             </a>
                         </div>
                         <div class="menu-wrapper">
-                            <a class="menu-item" href="{{route('home')}}">Home</a>
+                            <a class="menu-item" href="{{route('home')}}">Strona główna</a>
                             <a class="menu-item" href="{{route('about')}}">O nas</a>
                             <a class="menu-item" href="{{route('cafe')}}">Kawiarnia</a>
                             <a class="menu-item" href="{{route('price')}}">Cennik</a>

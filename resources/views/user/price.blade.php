@@ -42,7 +42,7 @@
                     </p>
                 </div>
                 <div class="col-12 mt-5 text-center  wrapper-price-day">
-                    <p style="font-size: 1.4rem; color: #636363; font-weight: 600;">dla rodzeństwa zniżka 50% na drugie dziecko</p>
+                    <p style="font-size: 1.4rem; color: #636363; font-weight: 600;">Na drugie i każde kolejne dziecko zniżka 50%</p>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
                 </div>
 
                 <div class="col-12 text-center mt-4">
-                    <p>Aby dostać pełną ofertę wyślij zapytanie na</p>
+                    <p>Aby otrzymać pełną ofertę prosimy o kontakt:</p>
                     <p style="color: #E9A08B">info@nelon.pl</p>
                     {{--<a href="{{url('Nelon-oferta-urodzinowa.pdf')}}" target="_blank" class="btn btn-primary ">zobacz pełną ofertę</a>--}}
                 </div>

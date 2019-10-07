@@ -72,7 +72,7 @@
                             <h2>Regulamin imprez zamkniętych</h2>
                             <p>Rezerwując termin dla imprezy zamkniętej akceptujesz treść regulaminu korzystania z bawialni oraz zobowiązujesz się poinformować o jego obowiązywaniu gości. Jeżeli Twoi goście go nieakceptują niestety nie będą mogli skorzystać z bawialni.<br/><br/>
 
-                                Podczas imprez zamkniętych zabrania się przynoszenia potraw (w tym ciast) wykonanych samodzielnie. Akceptujemy kupno produktów u zewnętrznych dostawców spełniających wymogi SANEPIDu. Punkt ten podyktowany jest bezpieczeństwem klientów. Przynosząc produkty żywnościowe oświadczasz że pochodzą one od producenta…<br/><br/><br/><br/>
+                                Podczas imprez zamkniętych zabrania się przynoszenia potraw (w tym ciast) wykonanych samodzielnie. Zapewniamy catering lub zniżki na napoje dla Państwa gości.<br/><br/><br/><br/>
 
                                 <strong>W przypadku przekroczenia czasu imprezy o więcej niż 15 minut obowiązuje dopłata 100 PLN za każdą rozpoczętą godzinę.</strong></p>
                         </div>
