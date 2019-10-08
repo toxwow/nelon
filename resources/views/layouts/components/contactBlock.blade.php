@@ -174,7 +174,7 @@
             });
         }
     </script>
-    <script async
+    <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmdGrhU7ZEPSj0M5iudLv0LSC0zRnVYzI&callback=initMap">
     </script>
 
