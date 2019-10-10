@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="title-wrapper-center">
-                        <h3 class="title">Cennik urodzinowy</h3>
+                        <h3 class="title">Cennik wejść</h3>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 my-3 wrapper-price-day">

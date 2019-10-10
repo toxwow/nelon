@@ -201,6 +201,7 @@
                     <div class="contact-item time">
                         <p>Godziny otwarcia:</p>
                         <p style="font-weight: 600;">Od wtorku do niedzieli 11 - 19</p>
+                        <p>Ze względu na imprezy urodzinowe zawsze sprawdź aktualne godziny otwarcia na <a href="https://www.facebook.com/bawialnianelon/" target="_blank">facebook'u</a> lub zadzwoń</p>
                     </div>
                     <div class="contact-item address">
                         <p>Stacja Kolejowa Zabłocie,</p>
