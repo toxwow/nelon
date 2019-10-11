@@ -14,6 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'HTMLMin' => HTMLMin\HTMLMin\Facades\HTMLMin::class,
 
     /*
     |--------------------------------------------------------------------------
