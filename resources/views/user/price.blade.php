@@ -1,6 +1,8 @@
 @extends('layouts.app')
-
 @section('title', ' - Kontakt')
+@push('description')
+    <meta name="description" content="Sala zabaw Nelon oferuje wejścia pojedyncze na 1 h lub dłużej. Dla rodzeństwa zniżka! Bawialnie możesz wynająć też na urodziny lub inne okazje" />
+@endpush
 @push('styles')
     <link href="{{ asset('css/index.css') }}" rel="stylesheet">
     <link href="{{ asset('css/user/price.css') }}" rel="stylesheet">

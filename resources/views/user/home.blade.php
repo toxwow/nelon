@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('title', ' - bawialnia dla dzieci')
+@push('description')
+    <meta name="description" content="Bawialnia Ekologiczna - sala zabaw dla dzieci w Krakowie. Odwiedź nas na zabłociu, pobaw się z maluchem lub poprostu odpocznij." />
+@endpush
 @push('styles')
     <link href="{{ asset('css/user/index.css') }}" rel="stylesheet">
     <link href="{{ asset('css/lightbox.min.css') }}" defer rel="stylesheet">

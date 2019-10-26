@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('title', ' - Kawiarnia')
+@push('description')
+    <meta name="description" content="W bawialni Nelon czeka na Ciebie pyszna kawa, wyśmienite tarty i ciasta. Dla dzieci jedynie zdrowe przekąski, owoce i wiele innych. Odwiedź nas." />
+@endpush
 @push('styles')
     <link href="{{ asset('css/user/cafe.css') }}" rel="stylesheet">
 @endpush

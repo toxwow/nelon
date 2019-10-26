@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('title', ' - Kontakt')
+@push('description')
+    <meta name="description" content="Gdzie jest Bawialnia Nelon? Na stacji kolejowej Kraków Zabłocie, ul. Kącik 24. Szukaj nas na parterze, pod peronami. Łatwy dojazd od strony Podgórza lub Zabłocia." />
+@endpush
 @push('styles')
     <link href="{{ asset('css/user/index.css') }}" rel="stylesheet">
     <link href="{{ asset('css/user/contact.css') }}" rel="stylesheet">

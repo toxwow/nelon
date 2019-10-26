@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('title', ' - O nas')
+@push('description')
+    <meta name="description" content="W Nelonie stawiamy na bezpieczeństwo. Przed skorzystaniem z bawialni zapoznaj się z regulaminem" />
+@endpush
 @push('styles')
     <link href="{{ asset('css/user/term.css') }}" rel="stylesheet">
 @endpush

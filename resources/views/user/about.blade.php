@@ -4,6 +4,9 @@
 @push('styles')
     <link href="{{ asset('css/user/about.css') }}" rel="stylesheet">
 @endpush
+@push('description')
+    <meta name="description" content="Uwielbiamy drewniane zabawki, dlatego stworzyliśmy bawialnię Nelon! Oprócz naturalnych zabawek znajdziesz u nas drewniane domki - sklep, kuchnię i wiele więcej. Nelon to miejsce gdzie możesz pobawić się z dzieckiem." />
+@endpush
 @push('scripts')
     <script src="{{ asset('js/user/index.js') }}"></script>
     <script src="https://code.jquery.com/ui/jquery-ui-git.js" defer></script>
