@@ -72,6 +72,7 @@
                             <a class="menu-item" href="{{route('cafe')}}">Kawiarnia</a>
                             <a class="menu-item" href="{{route('price')}}">Cennik</a>
                             <a class="menu-item" href="{{route('term')}}">Regulamin</a>
+                            <a class="menu-item" href="{{route('save')}}">Bezpieczeństwo</a>
                             <a class="menu-item" href="{{route('contact')}}">Kontakt</a>
                         </div>
                     </div>

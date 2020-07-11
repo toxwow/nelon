@@ -1,0 +1,95 @@
+.section {
+  padding: 80px 0;
+}
+
+.section.single-save {
+  background: url("/../images/bg-single-left.png"), url("/../images/bg-single-right.png");
+  background-position: left bottom, right bottom;
+  background-repeat: no-repeat;
+  background-size: 150px, 100px;
+}
+
+.section .title-wrapper-center {
+  margin-bottom: 30px;
+}
+
+.section .title-wrapper-center h3.title {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  color: #636363;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.section .title-wrapper-center h3.title:before,
+.section .title-wrapper-center h3.title:after {
+  content: "";
+  width: 35%;
+  height: 1px;
+  background-color: #DFDFDF;
+  position: absolute;
+  top: calc(50% - 1px);
+}
+
+.section .title-wrapper-center h3.title:before {
+  left: 15px;
+}
+
+.section .title-wrapper-center h3.title:after {
+  right: 15px;
+}
+
+.section .title-wrapper-center p.sub-title {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 300;
+  color: #797979;
+}
+
+.section .saves-wrapper {
+  background-color: #fff;
+  padding: 20px 25px;
+  border: 1px solid #DFDFDF;
+}
+
+.section .saves-wrapper p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.section .saves-wrapper ol {
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.section .saves-wrapper .img-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 400.98px) {
+  .section.price .text-card {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section.single-price {
+    background: url("/../images/bg-price-single.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section.price {
+    background: #FDFDFD;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section.terms .text-card {
+    padding: 40px 15px;
+    margin-left: 0;
+  }
+}
+

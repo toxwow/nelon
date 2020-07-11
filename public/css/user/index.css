@@ -1,1 +1,366 @@
-.home-page .top-section{padding:90px 0;background-color:#fff;display:flex;flex-direction:column}.home-page .top-section .text-wrapper{color:#afafaf}.home-page .top-section .text-wrapper h1{color:#636363;font-size:1.8rem;font-weight:300}.home-page .top-section .text-wrapper h3{color:#87b07f;font-size:1.2rem;font-weight:300}.home-page .top-section .text-wrapper p{margin:40px 0;font-weight:300;font-size:.9rem;text-align:justify}.home-page .top-section .buttons-wrapper{display:flex}.home-page .top-section .buttons-wrapper a{flex:1 0 0}.home-page .top-section .buttons-wrapper a:first-of-type{margin-right:20px}.home-page .top-section .buttons-wrapper a:nth-of-type(2){margin-left:20px}.home-page .slider-container{position:absolute;width:50%;height:auto;right:-52px;top:calc(50% - 150px)}.home-page .slider-container .item{width:100%;margin-left:auto;height:100%;position:relative}.home-page .slider-container .item img{width:100%;height:100%}.home-page .slider-container .item .square{z-index:-1;position:absolute;width:100%;height:100%;top:-10px;left:-10px;background-color:#e4e4e4}.home-page .section{padding:80px 0}.home-page .section.second{background:url(/images/bg-section.png),url(/images/bg-section-2.png),#fdfdfd;background-position:0 100%,100% 0;background-repeat:no-repeat;background-size:200px}.home-page .section .title-wrapper-center{margin-bottom:80px}.home-page .section .title-wrapper-center h3.title{font-family:Amatic SC,cursive;text-align:center;color:#636363;font-size:2.5rem;margin-bottom:0;position:relative}.home-page .section .title-wrapper-center h3.title:after,.home-page .section .title-wrapper-center h3.title:before{content:"";width:35%;height:1px;background-color:#dfdfdf;position:absolute;top:calc(50% - 1px)}.home-page .section .title-wrapper-center h3.title:before{left:15px}.home-page .section .title-wrapper-center h3.title:after{right:15px}.home-page .section .text-left-module .title-wrapper-left h3.title{font-family:Amatic SC,cursive;color:#636363;font-size:2.5rem;margin-bottom:40px;position:relative}.home-page .section .text-left-module .title-wrapper-left h3.title:after{content:"";position:absolute;width:40px;height:2px;background-color:#87b07f;left:0;bottom:-20px}.home-page .section .text-left-module .description-wrapper p{color:#afafaf;font-weight:300;text-align:justify}.home-page .section.about-us .circle-container,.home-page .section .text-left-module .button-wrapper{margin:30px 0}.home-page .section.about-us .circle-container .circle-wrapper{height:220px;width:220px;margin:0 auto;border-radius:50%;border:13px solid #fff;box-shadow:0 0 34px -21px rgba(0,0,0,.5);position:relative;background-position:top}.home-page .section.about-us .circle-container .circle-wrapper#circle-bawialnia{background-image:url(/images/circle-bg-1.png)}.home-page .section.about-us .circle-container .circle-wrapper#circle-kawiarnia{background-image:url(/images/circle-bg-2.png)}.home-page .section.about-us .circle-container .circle-wrapper#circle-urodziny{background-image:url(/images/circle-bg-3.png);background-position:30%}.home-page .section.about-us .circle-container .circle-wrapper .title{position:absolute;bottom:10px;width:110%;left:-5%;border-radius:10px;height:50px;background-color:#87b07f;text-align:center;color:#fff;line-height:50px}.home-page .section.about-us .circle-container .circle-wrapper .title p{margin:0}.home-page .section.about-us .circle-container .description-wrapper{margin-top:30px;text-align:center;font-weight:300;color:#afafaf;padding:0 20px}.home-page .section.bawialnia .image-wrapper{text-align:center}.home-page .section.bawialnia .image-wrapper img{width:100%;border:8px solid #fff;box-shadow:0 0 34px -21px rgba(0,0,0,.5)}.home-page .section.kawiarnia{padding-top:130px}.home-page .section.kawiarnia .image-wrapper-double{width:100%;text-align:right;margin-top:40px}.home-page .section.kawiarnia .image-wrapper-double .img-first{position:relative}.home-page .section.kawiarnia .image-wrapper-double img{width:100%;border:8px solid #fff;box-shadow:0 0 34px -21px rgba(0,0,0,.5)}.home-page .section.kawiarnia .image-wrapper-double .behind-image{position:absolute;left:-45%;width:90%;z-index:1;top:-25%}.home-page .section.gallery .gallery-container{display:flex;width:100%;flex-wrap:wrap;justify-content:space-around}.home-page .section.gallery .gallery-container .item{width:calc(25% - 10px);height:250px;margin:5px 0;overflow:hidden}.home-page .section.gallery .gallery-container .item a{display:block;width:100%;overflow:hidden;position:relative;height:100%;z-index:3}.home-page .section.gallery .gallery-container .item a .img-bg{position:absolute;width:100%;height:100%;background-image:url(/images/gallery/1.jpeg);background-size:cover;transition:transform .2s ease-in}.home-page .section.gallery .gallery-container .item a:hover .img-bg{transform:scale(1.2)}.home-page .section.contact{background-color:#f5f5f5;width:100%}.home-page .section.contact .title{font-family:Amatic SC,cursive;color:#636363;margin-bottom:40px}.home-page .section.contact .title h4{font-size:2.5rem}.home-page .section.contact .contact-item{margin-bottom:30px;margin-left:40px;position:relative}.home-page .section.contact .contact-item p{margin-bottom:5px;font-size:1rem;font-weight:300;color:#636363}.home-page .section.contact .contact-item p.description{margin-top:10px;color:#afafaf}.home-page .section.contact .contact-item:before{content:"";position:absolute;left:-40px;top:5px;background-size:contain;background-position:50%;background-repeat:no-repeat;width:15px;height:15px}.home-page .section.contact .contact-item.phone:before{background-image:url(/images/phone-icon-color.png)}.home-page .section.contact .contact-item.address:before{background-image:url(/images/pin-icon-color.png)}.home-page .section.contact #map{position:absolute;height:100%;width:50%;right:0;top:0}@media (max-width:575.98px){.home-page .top-section .buttons-wrapper{flex-direction:column}.home-page .top-section .buttons-wrapper a{flex:1 0 0}.home-page .top-section .buttons-wrapper a:first-of-type{margin-right:0;margin-bottom:20px}.home-page .top-section .buttons-wrapper a:nth-of-type(2){margin:0}}@media (max-width:767.98px){.home-page .section.bawialnia .image-wrapper img{margin:0 auto 55px;width:70%}}@media (max-width:991.98px){.home-page .section.gallery .gallery-container .item{width:calc(50% - 10px)}}
+.home-page .top-section {
+  padding: 90px 0;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page .top-section .text-wrapper {
+  color: #AFAFAF;
+}
+
+.home-page .top-section .text-wrapper h1 {
+  color: #636363;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.home-page .top-section .text-wrapper h3 {
+  color: #87b07f;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.home-page .top-section .text-wrapper p {
+  margin: 40px 0;
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.home-page .top-section .buttons-wrapper {
+  display: flex;
+}
+
+.home-page .top-section .buttons-wrapper a {
+  flex: 1 0 0;
+}
+
+.home-page .top-section .buttons-wrapper a:nth-of-type(1) {
+  margin-right: 20px;
+}
+
+.home-page .top-section .buttons-wrapper a:nth-of-type(2) {
+  margin-left: 20px;
+}
+
+.home-page .slider-container {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  right: -52px;
+  top: calc(50% - 150px);
+}
+
+.home-page .slider-container .item {
+  width: 100%;
+  margin-left: auto;
+  height: 100%;
+  position: relative;
+}
+
+.home-page .slider-container .item img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-page .slider-container .item .square {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -10px;
+  left: -10px;
+  background-color: #e4e4e4;
+}
+
+.home-page .section {
+  padding: 80px 0;
+}
+
+.home-page .section.second {
+  background: url("/../images/bg-section.png"), url("/../images/bg-section-2.png"), #FDFDFD;
+  background-position: left bottom, right top;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.home-page .section .title-wrapper-center {
+  margin-bottom: 80px;
+}
+
+.home-page .section .title-wrapper-center h3.title {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  color: #636363;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.home-page .section .title-wrapper-center h3.title:before,
+.home-page .section .title-wrapper-center h3.title:after {
+  content: "";
+  width: 35%;
+  height: 1px;
+  background-color: #DFDFDF;
+  position: absolute;
+  top: calc(50% - 1px);
+}
+
+.home-page .section .title-wrapper-center h3.title:before {
+  left: 15px;
+}
+
+.home-page .section .title-wrapper-center h3.title:after {
+  right: 15px;
+}
+
+.home-page .section .text-left-module .title-wrapper-left h3.title {
+  font-family: "Amatic SC", cursive;
+  color: #636363;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.home-page .section .text-left-module .title-wrapper-left h3.title:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #87b07f;
+  left: 0;
+  bottom: -20px;
+}
+
+.home-page .section .text-left-module .description-wrapper p {
+  color: #AFAFAF;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.home-page .section .text-left-module .button-wrapper {
+  margin: 30px 0;
+}
+
+.home-page .section.about-us .circle-container {
+  margin: 30px 0;
+}
+
+.home-page .section.about-us .circle-container .circle-wrapper {
+  height: 220px;
+  width: 220px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 13px solid #FFFFFF;
+  box-shadow: 0 0 34px -21px rgba(0, 0, 0, 0.5);
+  position: relative;
+  background-position: top center;
+}
+
+.home-page .section.about-us .circle-container .circle-wrapper#circle-bawialnia {
+  background-image: url("/../images/circle-bg-1.png");
+}
+
+.home-page .section.about-us .circle-container .circle-wrapper#circle-kawiarnia {
+  background-image: url("/../images/circle-bg-2.png");
+}
+
+.home-page .section.about-us .circle-container .circle-wrapper#circle-urodziny {
+  background-image: url("/../images/circle-bg-3.png");
+  background-position: 30%;
+}
+
+.home-page .section.about-us .circle-container .circle-wrapper .title {
+  position: absolute;
+  bottom: 10px;
+  width: 110%;
+  left: -5%;
+  border-radius: 10px;
+  height: 50px;
+  background-color: #87b07f;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 50px;
+}
+
+.home-page .section.about-us .circle-container .circle-wrapper .title p {
+  margin: 0;
+}
+
+.home-page .section.about-us .circle-container .description-wrapper {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 300;
+  color: #AFAFAF;
+  padding: 0 20px;
+}
+
+.home-page .section.bawialnia .image-wrapper {
+  text-align: center;
+}
+
+.home-page .section.bawialnia .image-wrapper img {
+  width: 100%;
+  border: 8px solid #FFFFFF;
+  box-shadow: 0 0 34px -21px rgba(0, 0, 0, 0.5);
+}
+
+.home-page .section.kawiarnia {
+  padding-top: 130px;
+}
+
+.home-page .section.kawiarnia .image-wrapper-double {
+  width: 100%;
+  text-align: right;
+  margin-top: 40px;
+}
+
+.home-page .section.kawiarnia .image-wrapper-double .img-first {
+  position: relative;
+}
+
+.home-page .section.kawiarnia .image-wrapper-double img {
+  width: 100%;
+  border: 8px solid #FFFFFF;
+  box-shadow: 0 0 34px -21px rgba(0, 0, 0, 0.5);
+}
+
+.home-page .section.kawiarnia .image-wrapper-double .behind-image {
+  position: absolute;
+  left: -45%;
+  width: 90%;
+  z-index: 1;
+  top: -25%;
+}
+
+.home-page .section.gallery .gallery-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home-page .section.gallery .gallery-container .item {
+  width: calc(100% / 4 - 10px);
+  height: 250px;
+  margin: 5px 0;
+  overflow: hidden;
+}
+
+.home-page .section.gallery .gallery-container .item a {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.home-page .section.gallery .gallery-container .item a .img-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/../images/gallery/1.jpeg");
+  background-size: cover;
+  transition: transform 0.2s ease-in;
+}
+
+.home-page .section.gallery .gallery-container .item a:hover .img-bg {
+  transform: scale(1.2);
+}
+
+.home-page .section.contact {
+  background-color: #F5F5F5;
+  width: 100%;
+}
+
+.home-page .section.contact .title {
+  font-family: "Amatic SC", cursive;
+  color: #636363;
+  margin-bottom: 40px;
+}
+
+.home-page .section.contact .title h4 {
+  font-size: 2.5rem;
+}
+
+.home-page .section.contact .contact-item {
+  margin-bottom: 30px;
+  margin-left: 40px;
+  position: relative;
+}
+
+.home-page .section.contact .contact-item p {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #636363;
+}
+
+.home-page .section.contact .contact-item p.description {
+  margin-top: 10px;
+  color: #AFAFAF;
+}
+
+.home-page .section.contact .contact-item:before {
+  content: "";
+  position: absolute;
+  left: -40px;
+  top: 5px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
+
+.home-page .section.contact .contact-item.phone:before {
+  background-image: url("/../images/phone-icon-color.png");
+}
+
+.home-page .section.contact .contact-item.address:before {
+  background-image: url("/../images/pin-icon-color.png");
+}
+
+.home-page .section.contact #map {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  right: 0;
+  top: 0;
+}
+
+@media (max-width: 575.98px) {
+  .home-page .top-section .buttons-wrapper {
+    flex-direction: column;
+  }
+
+  .home-page .top-section .buttons-wrapper a {
+    flex: 1 0 0;
+  }
+
+  .home-page .top-section .buttons-wrapper a:nth-of-type(1) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .home-page .top-section .buttons-wrapper a:nth-of-type(2) {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home-page .section.bawialnia .image-wrapper img {
+    margin: 0 auto 55px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .home-page .section.gallery .gallery-container .item {
+    width: calc(100% / 2 - 10px);
+  }
+}
+

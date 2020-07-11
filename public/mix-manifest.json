@@ -2,6 +2,7 @@
     "/js/app.js": "/js/app.js",
     "/css/index.css": "/css/index.css",
     "/css/user/index.css": "/css/user/index.css",
+    "/css/user/save.css": "/css/user/save.css",
     "/css/user/home.css": "/css/user/home.css",
     "/css/user/about.css": "/css/user/about.css",
     "/css/user/term.css": "/css/user/term.css",
@@ -14,5 +15,6 @@
     "/js/user/contact.js": "/js/user/contact.js",
     "/js/user/index.js": "/js/user/index.js",
     "/js/user/price.js": "/js/user/price.js",
+    "/js/user/save.js": "/js/user/save.js",
     "/js/user/term.js": "/js/user/term.js"
 }

@@ -31,6 +31,11 @@ class IndexController extends Controller
         return view('user.price');
     }
 
+    public function save()
+    {
+        return view('user.save');
+    }
+
     public function contact()
     {
         return view('user.contact');

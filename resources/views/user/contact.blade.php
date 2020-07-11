@@ -12,6 +12,7 @@
 @push('scripts')
     <script src="{{ asset('js/user/index.js') }}"></script>
     <script src="{{asset('js/lightbox.min.js')}}" defer></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v7.0" nonce="NJF01k7o"></script>
     <script>
         var map;
         function initMap() {
@@ -193,18 +194,13 @@
     </script>
 @endpush
 @section('content')
+    <div id="fb-root"></div>
     <div class="section contact position-relative">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 mr-md-auto">
                     <div class="title">
-                        <h4>Masz pytania?</h4>
-                        <h4>Skontatkuj się z nami</h4>
-                    </div>
-                    <div class="contact-item time">
-                        <p>Godziny otwarcia:</p>
-                        <p style="font-weight: 600;">Od wtorku do niedzieli 11 - 19</p>
-                        <p>Ze względu na imprezy urodzinowe zawsze sprawdź aktualne godziny otwarcia na <a href="https://www.facebook.com/bawialnianelon/" target="_blank">facebook'u</a> lub zadzwoń</p>
+                        <h4>Zapraszamy</h4>
                     </div>
                     <div class="contact-item address">
                         <p>Stacja Kolejowa Zabłocie,</p>
@@ -218,10 +214,12 @@
                     <div class="buttons-wrapper">
                         <a href="" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">wskazówki dojazdu</a>
                     </div>
-                    <div class="info-wrapper">
-                        <p>Uwaga z powodu remontu stacji kolejowej póki co wejście jedynie od strony ul. Kącik.</p>
-                        <p>Mieszkańcy Zabłocia powinni przejść tunelem podziemnym i skręcić w prawo</p>
+                    <div class="contact-item time" style="margin-top: 25px;">
+                        <p>Godziny otwarcia:</p>
+                        <p style="font-weight: 600;">Od wtorku do niedzieli 11 - 19</p>
+                        <p>Ze względu na imprezy urodzinowe zawsze sprawdź aktualne godziny otwarcia na <a href="https://www.facebook.com/bawialnianelon/" target="_blank">facebook'u</a> lub zadzwoń</p>
                     </div>
+                    <div class="fb-page" style="margin-top: 15px;" data-href="https://www.facebook.com/bawialnianelon/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/bawialnianelon/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bawialnianelon/">Nelon</a></blockquote></div>
                     <div class="modal  fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl" role="document">
                             <div class="modal-content">
@@ -245,6 +243,10 @@
                                     <div class="type pb-4">
                                         <p class="title">Dojazd samochodem</p>
                                         <p class="description">W pobliżu stacji znajduje się mały darmowy parking. Można zaparkować również przy ulicy Kącik oraz przyległych. <br> <strong>Uwaga</strong>, oprócz niedziel obowiązuje strefa parkowania (płatne w godzinach 10:00 – 20:00). Strefa dotyczy wyznaczonych miejsce, ale już np. nie obejmuje małe parkingu tuż przy bawialni.</p>
+                                    </div>
+                                    <div class="info-wrapper" style="margin-left: 30px;">
+                                        <p>Uwaga z powodu remontu stacji kolejowej póki co wejście jedynie od strony ul. Kącik.</p>
+                                        <p>Mieszkańcy Zabłocia powinni przejść tunelem podziemnym i skręcić w prawo</p>
                                     </div>
                                 </div>
                             </div>
